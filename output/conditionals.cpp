@@ -4,15 +4,16 @@ using namespace std;
 
 int main()
 {
-  // int a,b ;
-  // cout<<"enter the value of a "<<endl;
-  // cin>>a;
-  // cout <<"enter the value of b "<<endl;
-  // cin>>b;
+  int a, b;
+  cout << "enter the value of a " << endl;
+  cin >> a;
+  cout << "enter the value of b " << endl;
+  cin >> b;
 
-  // if (a>b){
-  //   cout<<"A is greater.";
-  // }
+  if (a > b)
+  {
+    cout << "A is greater.";
+  }
 
   // if (a<b){
   //   cout<<"B is greater.";
@@ -192,20 +193,19 @@ int main()
   //   i = i + 1;
   //}
 
-
-
-   int n;
-   cin>>n;
-   int i = 1 ;
-   while(i<=n){
-    int j = 1 ;
-    while(j<=n){
-      cout<<j;
-      j=j+1;
-
+  int n;
+  cin >> n;
+  int i = 7;
+  while (i <= n)
+  {
+    int j = 1;
+    while (j <= n)
+    {
+      cout << j;
+      j = j + 1;
     }
 
-    cout<<endl;
+    cout << endl;
     i = i + 1;
-   }
+  }
 }
